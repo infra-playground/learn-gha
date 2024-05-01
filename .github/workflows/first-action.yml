@@ -6,6 +6,10 @@ jobs:
     steps:
     - name: Print greeting
       run: echo "hello gh actions"
+    - name: Multiline with pipe
+      run: |
+        echo "first output"
+        echo "second output"
     - name: Print dispedido
       run: echo "Done - See ya!"
   
