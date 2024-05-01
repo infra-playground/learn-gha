@@ -12,4 +12,5 @@ Resources used
 
 Documentation
 
-[Using Workflows](https://docs.github.com/en/actions/using-workflows)
+* [Using Workflows](https://docs.github.com/en/actions/using-workflows)
+* [GitHub Contexts](https://docs.github.com/en/actions/learn-github-actions/contexts)
