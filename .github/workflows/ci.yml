@@ -2,7 +2,7 @@ name: Run tests and deploy project
 on: [push, workflow_dispatch]
 jobs:
   lint:
-    runs-ons: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Start process
       run: echo "Starting liner"
