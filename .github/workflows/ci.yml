@@ -15,6 +15,7 @@ jobs:
     - name: End linter
       run: echo "Finish linting"
   test:
+    needs: lint
     runs-on: ubuntu-latest
     steps:
     - name: Start  process
