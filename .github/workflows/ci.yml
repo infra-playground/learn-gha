@@ -7,6 +7,9 @@ on:
     types: 
     - opened
     - reopened
+    branches:
+    - main
+    - 'dev-*'
   workflow_dispatch:
 jobs:
   lint:
