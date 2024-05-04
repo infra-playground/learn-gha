@@ -1,6 +1,6 @@
 # learn-gha
 
-learning GitHub Actions
+Learning GitHub Actions
 
 Resources used
 
