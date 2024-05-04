@@ -1,4 +1,5 @@
 name: Exercise
+run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push, workflow_dispatch]
 jobs:
   lint:
