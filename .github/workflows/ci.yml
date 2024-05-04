@@ -1,5 +1,16 @@
 name: Exercise
-on: [push, workflow_dispatch]
+on:
+  push:
+    branches: 
+    - main
+  pull_request:
+    types: 
+    - opened
+    - reopened
+    branches:
+    - main
+    - 'dev-*'
+  workflow_dispatch:
 jobs:
   lint:
     runs-on: ubuntu-latest
